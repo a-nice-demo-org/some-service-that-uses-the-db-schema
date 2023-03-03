@@ -6,7 +6,7 @@ table "categories" {
   }
   column "name" {
     null = true
-    type = varchar(101)
+    type = varchar(230)
   }
   primary_key {
     columns = [column.id]
